@@ -1,0 +1,47 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+body{
+    background-image: url(./wallpaper.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.list-1{
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: column;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-bottom: 7rem;
+}
+table,tr,th,td{
+    border-collapse: collapse;
+     border: 2px solid black;
+     height: 10vh;
+     width: 40vw;
+     text-align: center;
+     color: beige;
+ }
+ #flag{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+ }
+ .t1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+ }
